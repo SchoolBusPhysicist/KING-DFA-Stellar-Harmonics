@@ -1,5 +1,24 @@
 # Stellar Oscillation Validation Results
 
+```mermaid
+graph TB
+    subgraph Data["25,857 Systems"]
+        K[Kepler Heartbeat]
+        O[OGLE Survey]
+        I[Individual: KOI-54]
+    end
+    subgraph Analysis
+        MC["Monte Carlo 10K"]
+        HM["Harmonic Match"]
+    end
+    subgraph Results
+        R1["456d: 2.81× excess"]
+        R2["4/4 stars confirmed"]
+        R3["p < 0.0001"]
+    end
+    Data --> Analysis --> Results
+```
+
 ## Dataset Summary
 
 **Total Systems Analyzed:** 25,857
@@ -77,6 +96,14 @@ A(n) = A₀ × exp[−(n/456)^0.54]
 | n=456 | 50% (half-power) | ~50% | Match |
 
 ## Cross-Domain Validation
+
+```mermaid
+graph LR
+    N["N₀ = 456"] --> A["Neutrinos: N/4 = 114 clusters"]
+    N --> B["Stars: N/k = 38-46 overtones"]
+    N --> C["Black holes: Δω/ω₀ = 21/N"]
+    N --> D["MOND: a₀ = cH₀/N"]
+```
 
 The N=456 harmonic appears across 60+ orders of magnitude:
 

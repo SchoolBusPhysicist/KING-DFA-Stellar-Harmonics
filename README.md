@@ -275,6 +275,7 @@ The framework fails if:
 
 | Document | Contents |
 |----------|----------|
+| [GLOSSARY.md](docs/GLOSSARY.md) | **Definitions of all KDFA terms and constants** |
 | [STELLAR_RESULTS.md](docs/STELLAR_RESULTS.md) | Full Monte Carlo analysis of 25,857 systems |
 | [ZONE_CLASSIFICATIONS.md](docs/ZONE_CLASSIFICATIONS.md) | κ values and zone structure for all star types |
 | [GAS_GIANTS.md](docs/GAS_GIANTS.md) | Jupiter and Saturn oscillation analysis |

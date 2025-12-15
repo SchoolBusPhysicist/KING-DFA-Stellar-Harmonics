@@ -1,5 +1,31 @@
 # Data Sources for Independent Verification
 
+```mermaid
+flowchart TB
+    subgraph Stellar["Stellar Data"]
+        K[Kepler/Kirk 2016]
+        O[OGLE Survey]
+        Y[Yu 2018 Red Giants]
+        KOI[KOI-54]
+    end
+    subgraph Planetary["Gas Giants"]
+        J[Jupiter - Gaulme 2011]
+        S[Saturn - Cassini]
+    end
+    subgraph Neutrino["Neutrino Data"]
+        IC[IceCube HESE]
+        SK[Super-K]
+    end
+    subgraph Other["Cross-Validation"]
+        GW[LIGO GW Events]
+        EC[LMFDB Elliptic Curves]
+    end
+    Stellar --> A["456/k harmonics"]
+    Planetary --> A
+    Neutrino --> B["D₂ = 1.46"]
+    Other --> C["Universal constants"]
+```
+
 All data used in this analysis is publicly available. Links and references for reproducibility.
 
 ## Stellar Catalogs

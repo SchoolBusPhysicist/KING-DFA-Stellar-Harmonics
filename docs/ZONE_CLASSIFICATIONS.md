@@ -1,5 +1,22 @@
 # κ Zone Classifications for Stellar Systems
 
+```mermaid
+graph LR
+    subgraph Z1["Zone 1: κ < 0.35"]
+        A1["Rigid/Frozen"]
+        A2["S-dominated"]
+    end
+    subgraph Z2["Zone 2: 0.35-0.65"]
+        B1["Generative"]
+        B2["Life-compatible"]
+    end
+    subgraph Z3["Zone 3: κ > 0.65"]
+        C1["Chaotic"]
+        C2["R-dominated"]
+    end
+    Z1 -->|"κ* = 1/e"| Z2 -->|"0.65"| Z3
+```
+
 ## The Coupling Parameter κ
 
 ```
@@ -22,6 +39,21 @@ Where:
 **Critical threshold:** κ* = 1/e ≈ 0.368
 
 ## Stellar System Classifications
+
+```mermaid
+graph TD
+    subgraph Zone1["Zone 1 Systems"]
+        G["Gaia binaries: 0.281"]
+        H["Heartbeat: 0.167"]
+    end
+    subgraph Zone2["Zone 2 Systems"]
+        T["Triples: 0.446"]
+        M["Main Seq: 0.45-0.50"]
+        K["KOI-54: 0.57"]
+    end
+    Zone1 -->|"Stable"| Zone2
+    K -->|"Pre-collapse"| X["Zone 3"]
+```
 
 ### Binary Systems
 
@@ -93,6 +125,18 @@ def calculate_kappa(T_kinetic, U_potential):
 ```
 
 ## Zone Predictions
+
+```mermaid
+flowchart TD
+    K["Calculate κ"] --> C1{κ < 0.35?}
+    C1 -->|Yes| S1["Zone 1: Stable"]
+    C1 -->|No| C2{κ < 0.65?}
+    C2 -->|Yes| S2["Zone 2: Generative"]
+    C2 -->|No| S3["Zone 3: Unstable"]
+    S1 --> P1["Weak oscillations"]
+    S2 --> P2["456/k harmonics"]
+    S3 --> P3["Approaching collapse"]
+```
 
 | If κ is... | Expect... |
 |------------|-----------|

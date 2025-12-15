@@ -1,5 +1,24 @@
 # Gas Giant Oscillation Validation
 
+```mermaid
+graph LR
+    subgraph Prediction
+        P["456/k harmonics"]
+    end
+    subgraph Jupiter
+        J["456/3 = 152 μHz"]
+        JM["Measured: 155.3 μHz"]
+        JE["Error: 2.1%"]
+    end
+    subgraph Saturn
+        S["456×4/3 = 608 μHz"]
+        SM["Measured: ~600 μHz"]
+        SE["Error: ~1%"]
+    end
+    P --> J --> JM --> JE
+    P --> S --> SM --> SE
+```
+
 ## Key Finding
 
 The 456/k harmonic pattern appears in gas giant oscillations despite **no fusion** - confirming the framework requires fluid dynamics, not nuclear burning.
@@ -68,6 +87,18 @@ The 456/k harmonic pattern appears in gas giant oscillations despite **no fusion
 | Earth (seismic) | Elastic | **No** | Zone 1 |
 
 ## The Pattern Requirement
+
+```mermaid
+flowchart TD
+    Q{Has 456/k?}
+    Q -->|Check| R1{Fluid dynamics?}
+    R1 -->|No| N1["❌ No pattern<br/>Earth seismology"]
+    R1 -->|Yes| R2{Active convection?}
+    R2 -->|No| N2["❌ No pattern"]
+    R2 -->|Yes| R3{κ in 0.35-0.65?}
+    R3 -->|No| N3["❌ Zone 1 or 3"]
+    R3 -->|Yes| Y["✓ 456/k harmonics<br/>Stars, Jupiter, Saturn"]
+```
 
 For 456/k harmonics to appear, a system needs:
 
