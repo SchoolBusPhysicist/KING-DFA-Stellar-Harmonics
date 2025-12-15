@@ -65,8 +65,10 @@ KING-DFA-Stellar-Harmonics/
 │   ├── analyze_tro_cycles.py         # TRO cycling zone analysis
 │   ├── analyze_yu2018_red_giants.py  # 16,094 red giants analysis
 │   ├── calculate_d2.py               # D₂ correlation dimension
-│   └── visualize_neutrino.py         # Neutrino visualization
+│   ├── visualize_neutrino.py         # Neutrino visualization
+│   └── analyze_10yr_d2.py            # IceCube 10-year D₂ analysis
 ├── docs/
+│   ├── NEUTRINO_RESULTS.md           # IceCube D₂ validation (1.1M events)
 │   ├── STELLAR_RESULTS.md            # Full 25,857 system results
 │   ├── ZONE_CLASSIFICATIONS.md       # κ values by star type
 │   ├── GAS_GIANTS.md                 # Jupiter/Saturn analysis
@@ -74,6 +76,8 @@ KING-DFA-Stellar-Harmonics/
 ├── data/
 │   ├── 20211217_HESE-7-5-year-data.zip
 │   └── 20080911_AMANDA_7_Year_Data.zip
+├── results/
+│   └── neutrino/                     # D₂ validation figures
 ├── RESULTS.md                        # Complete results record
 ├── requirements.txt
 └── README.md
@@ -276,6 +280,7 @@ The framework fails if:
 | Document | Contents |
 |----------|----------|
 | [GLOSSARY.md](docs/GLOSSARY.md) | **Definitions of all KDFA terms and constants** |
+| [NEUTRINO_RESULTS.md](docs/NEUTRINO_RESULTS.md) | **IceCube D₂ analysis (1.1M events, <1σ match)** |
 | [STELLAR_RESULTS.md](docs/STELLAR_RESULTS.md) | Full Monte Carlo analysis of 25,857 systems |
 | [ZONE_CLASSIFICATIONS.md](docs/ZONE_CLASSIFICATIONS.md) | κ values and zone structure for all star types |
 | [GAS_GIANTS.md](docs/GAS_GIANTS.md) | Jupiter and Saturn oscillation analysis |

@@ -93,9 +93,14 @@ D2 = d(log C) / d(log r)
 
 ## Figures
 
-- `results/neutrino/kdfa_neutrino_validation.png` - Multi-dataset comparison
-- `results/neutrino/icecube_10yr_d2_analysis.png` - D2 vs energy
-- `results/neutrino/icecube_10yr_overview.png` - Data distribution
+### KDFA Neutrino Validation
+![KDFA Neutrino Validation](../results/neutrino/kdfa_neutrino_validation.png)
+
+### D₂ vs Energy Analysis
+![D2 vs Energy](../results/neutrino/icecube_10yr_d2_analysis.png)
+
+### 10-Year Data Overview
+![10-Year Overview](../results/neutrino/icecube_10yr_overview.png)
 
 ---
 
