@@ -34,7 +34,6 @@ KING-DFA-Stellar-Harmonics/
 │   ├── analyze_heartbeat_stars.py    # OGLE/Kepler analysis
 │   ├── analyze_triple_stars.py       # Triple system κ analysis
 │   ├── analyze_tro_cycles.py         # TRO cycling zone analysis
-│   ├── analyze_glashow_d2.py         # Glashow 6 PeV event D₂
 │   ├── analyze_yu2018_red_giants.py  # 16,094 red giants analysis
 │   ├── calculate_d2.py               # D₂ correlation dimension
 │   └── visualize_neutrino.py         # Neutrino visualization
@@ -45,8 +44,7 @@ KING-DFA-Stellar-Harmonics/
 │   └── DATA_SOURCES.md               # All raw data links
 ├── data/
 │   ├── 20211217_HESE-7-5-year-data.zip
-│   ├── 20080911_AMANDA_7_Year_Data.zip
-│   └── glashow_resonance_2021.zip    # 6 PeV event pulses
+│   └── 20080911_AMANDA_7_Year_Data.zip
 ├── RESULTS.md                        # Complete results record
 ├── requirements.txt
 └── README.md
@@ -159,9 +157,6 @@ python scripts/analyze_heartbeat_stars.py
 
 # Calculate D₂ for neutrinos
 python scripts/calculate_d2.py
-
-# Glashow 6 PeV event D₂ analysis
-python scripts/analyze_glashow_d2.py
 
 # TRO cycling zone analysis
 python scripts/analyze_tro_cycles.py
