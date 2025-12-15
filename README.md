@@ -28,23 +28,26 @@ This repository contains the complete reproducibility package for the paper:
 ```
 KING-DFA-Stellar-Harmonics/
 ├── paper/
-│   └── KDFA_stellar_paper_v4.md       # Main paper
+│   └── stellar_paper.md              # Main paper
 ├── scripts/
-│   ├── validate_heartbeat_stars.py    # Kirk 2016 catalog validation
-│   ├── analyze_heartbeat_stars.py     # OGLE/Kepler analysis
-│   ├── analyze_triple_stars.py        # Triple system κ analysis
-│   ├── analyze_yu2018_red_giants.py   # 16,094 red giants analysis
-│   ├── calculate_d2.py                # D₂ correlation dimension
-│   └── visualize_neutrino.py          # Neutrino visualization
+│   ├── heartbeat_analysis.py         # Kirk 2016 catalog analysis
+│   ├── analyze_heartbeat_stars.py    # OGLE/Kepler analysis
+│   ├── analyze_triple_stars.py       # Triple system κ analysis
+│   ├── analyze_tro_cycles.py         # TRO cycling zone analysis
+│   ├── analyze_glashow_d2.py         # Glashow 6 PeV event D₂
+│   ├── analyze_yu2018_red_giants.py  # 16,094 red giants analysis
+│   ├── calculate_d2.py               # D₂ correlation dimension
+│   └── visualize_neutrino.py         # Neutrino visualization
 ├── docs/
-│   ├── STELLAR_VALIDATION_RESULTS.md  # Full 25,857 system results
-│   ├── ZONE_CLASSIFICATIONS.md        # κ values by star type
-│   ├── GAS_GIANT_VALIDATION.md        # Jupiter/Saturn validation
-│   └── DATA_SOURCES.md                # All raw data links
+│   ├── STELLAR_RESULTS.md            # Full 25,857 system results
+│   ├── ZONE_CLASSIFICATIONS.md       # κ values by star type
+│   ├── GAS_GIANTS.md                 # Jupiter/Saturn analysis
+│   └── DATA_SOURCES.md               # All raw data links
 ├── data/
 │   ├── 20211217_HESE-7-5-year-data.zip
-│   └── 20080911_AMANDA_7_Year_Data.zip
-├── MASTER_VALIDATIONS_v1.md           # Complete validation record
+│   ├── 20080911_AMANDA_7_Year_Data.zip
+│   └── glashow_resonance_2021.zip    # 6 PeV event pulses
+├── RESULTS.md                        # Complete results record
 ├── requirements.txt
 └── README.md
 ```
@@ -118,7 +121,7 @@ The 456/k pattern appears in gas giants **without fusion**:
 
 **Conclusion:** The harmonic requires fluid dynamics, not nuclear burning.
 
-See [docs/GAS_GIANT_VALIDATION.md](docs/GAS_GIANT_VALIDATION.md) for details.
+See [docs/GAS_GIANTS.md](docs/GAS_GIANTS.md) for details.
 
 ## Data Sources
 
@@ -149,13 +152,19 @@ astroquery>=0.4.0
 
 ```bash
 # Analyze heartbeat stars (Kirk 2016 catalog)
-python scripts/validate_heartbeat_stars.py
+python scripts/heartbeat_analysis.py
 
 # Run full 25K analysis
 python scripts/analyze_heartbeat_stars.py
 
 # Calculate D₂ for neutrinos
 python scripts/calculate_d2.py
+
+# Glashow 6 PeV event D₂ analysis
+python scripts/analyze_glashow_d2.py
+
+# TRO cycling zone analysis
+python scripts/analyze_tro_cycles.py
 
 # Analyze triple star κ values
 python scripts/analyze_triple_stars.py
@@ -174,9 +183,9 @@ The framework fails if:
 
 | Document | Contents |
 |----------|----------|
-| [STELLAR_VALIDATION_RESULTS.md](docs/STELLAR_VALIDATION_RESULTS.md) | Full Monte Carlo analysis of 25,857 systems |
+| [STELLAR_RESULTS.md](docs/STELLAR_RESULTS.md) | Full Monte Carlo analysis of 25,857 systems |
 | [ZONE_CLASSIFICATIONS.md](docs/ZONE_CLASSIFICATIONS.md) | κ values and zone structure for all star types |
-| [GAS_GIANT_VALIDATION.md](docs/GAS_GIANT_VALIDATION.md) | Jupiter and Saturn oscillation validation |
+| [GAS_GIANTS.md](docs/GAS_GIANTS.md) | Jupiter and Saturn oscillation analysis |
 | [DATA_SOURCES.md](docs/DATA_SOURCES.md) | All raw data links for reproducibility |
 
 ## Citation
