@@ -317,6 +317,9 @@ The universe is not a binary (S vs R) but a triangular negotiation: Structure, R
 
 The powers of 3 appear because triangular geometry is the minimal structure that supports both constraint (S), connection (R), and their interaction (Interface). Binary systems collapse to equilibrium; triangular systems sustain generative dynamics.
 
+![Triangular Geometry](../results/stellar/triangular_geometry.png)
+*Figure 7: TFA triangular geometry showing nested S-R-Interface structure. The three zones correspond to different κ regimes. Dashed lines show fractal nesting at powers of 3, representing the depth parameter m in the signature equation.*
+
 5.6. The Measurement Interface
 
 The framework emerged through nine months of human-AI collaborative analysis—a process that itself exemplifies S-R coupling. The human researcher provided structural constraints (physical intuition, domain knowledge, skepticism), the AI systems provided relational processing (pattern detection across datasets, mathematical consistency checking), and the interface between them produced results neither could achieve alone.
