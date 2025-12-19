@@ -10,7 +10,7 @@ Independent Researcher, Missouri, USA
 
 ## Abstract
 
-The Kings Dialectical Fractal Archestructure (KDFA) framework predicts that coupled dynamical systems exhibit critical transitions at κ* = 1/e ≈ 0.368 (survival threshold) and κ = 1/φ ≈ 0.618 (chaos boundary), where φ = (1+√5)/2 is the golden ratio. The interval [1/e, 1/φ] = [0.368, 0.618] defines the "life zone" where sustainable complexity emerges. We demonstrate that Fibonacci sequences appear throughout biological systems precisely because they optimize coupling within this zone. DNA base pair ratios (34/21 = φ), developmental stage transitions, and population dynamics all exhibit Fibonacci structure encoding the golden ratio boundary. The framework provides a unified explanation for why φ appears universally in living systems: it marks the upper boundary of sustainable coupling.
+The Triangular Fractal Archestructure (TFA) framework predicts that coupled dynamical systems exhibit critical transitions at κ* = 1/e ≈ 0.368 (survival threshold) and κ = 1/φ ≈ 0.618 (chaos boundary), where φ = (1+√5)/2 is the golden ratio. The interval [1/e, 1/φ] = [0.368, 0.618] defines the "life zone" where sustainable complexity emerges. We demonstrate that Fibonacci sequences appear throughout biological systems precisely because they optimize coupling within this zone. DNA base pair ratios (34/21 = φ), developmental stage transitions, and population dynamics all exhibit Fibonacci structure encoding the golden ratio boundary. The framework provides a unified explanation for why φ appears universally in living systems: it marks the upper boundary of sustainable coupling.
 
 ---
 
@@ -28,7 +28,7 @@ The Fibonacci sequence (1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...) and its limit
 
 These appearances have been noted for centuries but lack unified explanation. Why should the same ratio govern plant growth, DNA structure, and population dynamics?
 
-### 1.2 The KDFA Framework
+### 1.2 The TFA Framework
 
 The coupling parameter κ = R/(R+S) governs system dynamics:
 - **S-axis**: Structural constraints (mass, boundaries, localization)
@@ -50,7 +50,7 @@ Three zones emerge:
 
 The Fibonacci sequence arises from the recurrence F(n) = F(n-1) + F(n-2), encoding the constraint that new growth depends on both immediate predecessor and memory of prior state.
 
-In KDFA terms:
+In TFA terms:
 - F(n-1) = current R-component (relational, immediate)
 - F(n-2) = current S-component (structural, memory)
 - F(n) = next state = R + S
@@ -94,7 +94,7 @@ The DNA double helix exhibits:
 - Diameter: 21 Å
 - Ratio: 34/21 = 1.619 ≈ φ
 
-In KDFA terms: DNA encodes information (R-axis) within structural constraints (S-axis). The optimal encoding ratio is φ, placing DNA firmly in the life zone.
+In TFA terms: DNA encodes information (R-axis) within structural constraints (S-axis). The optimal encoding ratio is φ, placing DNA firmly in the life zone.
 
 Base pair complementarity:
 - A-T: 2 hydrogen bonds
@@ -145,7 +145,7 @@ Cancer represents unconstrained R-axis growth:
 - Relational dynamics dominate (uncontrolled proliferation)
 - κ → 1 (pure R, no S constraint)
 
-KDFA predicts: Cancer cells should show D₂ → 2 (smooth, non-fractal growth patterns), loss of 456/k harmonic structure, and violation of Fibonacci proportions.
+TFA predicts: Cancer cells should show D₂ → 2 (smooth, non-fractal growth patterns), loss of 456/k harmonic structure, and violation of Fibonacci proportions.
 
 ### 4.2 Sclerosis: κ → 0
 
@@ -188,7 +188,7 @@ The catenary and arch are the same curve—one hangs (R), one stands (S). At the
 - The curve is its own inverse
 - Maximum stability with maximum flexibility
 
-This geometric unity underlies the KDFA framework: S and R are not opposites but complementary aspects of the same underlying structure.
+This geometric unity underlies the TFA framework: S and R are not opposites but complementary aspects of the same underlying structure.
 
 ---
 

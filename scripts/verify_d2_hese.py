@@ -140,14 +140,14 @@ print(f"Value 2 (combined):  D₂ = {val2:.3f} ± {err2:.3f}")
 print(f"  Difference: {diff2:.3f}, σ = {sigma2:.2f}")
 print()
 
-# KDFA prediction
+# TFA prediction
 kdfa_pred = 1.45
 kdfa_err = 0.10
 diff_kdfa = abs(measured - kdfa_pred)
 combined_kdfa = np.sqrt(measured_err**2 + kdfa_err**2)
 sigma_kdfa = diff_kdfa / combined_kdfa
 
-print(f"KDFA Prediction:     D₂ = {kdfa_pred:.3f} ± {kdfa_err:.3f}")
+print(f"TFA Prediction:     D₂ = {kdfa_pred:.3f} ± {kdfa_err:.3f}")
 print(f"  Difference: {diff_kdfa:.3f}, σ = {sigma_kdfa:.2f}")
 
 print()
@@ -164,7 +164,7 @@ else:
     print(f"  ({sigma2:.2f}σ vs {sigma1:.2f}σ)")
 
 print()
-print(f"Both values match KDFA prediction (D₂ = 1.45 ± 0.10) within:")
+print(f"Both values match TFA prediction (D₂ = 1.45 ± 0.10) within:")
 print(f"  Value 1: {abs(val1 - kdfa_pred)/kdfa_err:.2f}σ of prediction")
 print(f"  Value 2: {abs(val2 - kdfa_pred)/kdfa_err:.2f}σ of prediction")
 print(f"  Our measurement: {sigma_kdfa:.2f}σ of prediction")

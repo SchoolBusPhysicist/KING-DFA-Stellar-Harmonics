@@ -1,6 +1,6 @@
-# KDFA Glossary
+# TFA Glossary
 
-Distinct definitions for the Kings Dialectical Fractal Archestructure framework.
+Distinct definitions for the Triangular Fractal Archestructure framework.
 
 ```mermaid
 graph TD
@@ -178,7 +178,7 @@ N₀ = 168 × e = 456.67
 ### TEO — Tidally Excited Oscillations
 **Definition:** Stellar pulsations driven by tidal forces in eccentric binaries.
 
-**KDFA relevance:** TEO frequencies follow 456/k harmonics
+**TFA relevance:** TEO frequencies follow 456/k harmonics
 - KOI-54 shows n ≈ 456/5 overtones
 - Amplitude instability when κ > 0.55
 
@@ -187,7 +187,7 @@ N₀ = 168 × e = 456.67
 ### TRO — Thermal Relaxation Oscillations
 **Definition:** Cyclic mass transfer behavior at stability boundaries.
 
-**KDFA interpretation:** Systems crossing κ ≈ 0.65 cycle rather than immediately collapse:
+**TFA interpretation:** Systems crossing κ ≈ 0.65 cycle rather than immediately collapse:
 1. κ crosses threshold → dynamics accelerate
 2. System overshoots → structure reasserts
 3. κ drops → recovery
@@ -200,7 +200,7 @@ N₀ = 168 × e = 456.67
 ### Murmuration (Elliptic Curves)
 **Definition:** Oscillating patterns in Frobenius traces when curves sorted by conductor.
 
-**KDFA mapping:**
+**TFA mapping:**
 - Conductor N = S-axis (constraint)
 - Rank r = R-axis (emergence)
 - First node at √(p/N) = 0.3627 ≈ 1/e
@@ -210,7 +210,7 @@ N₀ = 168 × e = 456.67
 ### Ringdown (Black Holes)
 **Definition:** Gravitational wave emission as merged black hole settles.
 
-**KDFA prediction:** Δω/ω₀ = 21/456 = 0.046
+**TFA prediction:** Δω/ω₀ = 21/456 = 0.046
 
 **Validation:** LIGO events average 0.046 ± 0.003 (exact match)
 
@@ -218,16 +218,16 @@ N₀ = 168 × e = 456.67
 
 ## Distinctions from Other Frameworks
 
-### KDFA vs DFA (Detrended Fluctuation Analysis)
-| | KDFA | DFA |
+### TFA vs DFA (Detrended Fluctuation Analysis)
+| | TFA | DFA |
 |---|------|-----|
-| Full name | Kings Dialectical Fractal Archestructure | Detrended Fluctuation Analysis |
+| Full name | Triangular Fractal Archestructure | Detrended Fluctuation Analysis |
 | Purpose | Universal coupling framework | Time series scaling |
 | Output | κ, zones, harmonics | Hurst exponent |
 | Relation | Different framework | Unrelated method |
 
 ### κ vs Virial Ratio
-| | κ (KDFA) | Virial ratio |
+| | κ (TFA) | Virial ratio |
 |---|----------|--------------|
 | Definition | R/(R+S) | 2T/|U| |
 | Range | 0 to 1 | Any positive |
@@ -254,6 +254,6 @@ N₀ = 168 × e = 456.67
 When using these definitions, cite:
 
 ```
-King, J.A. (2025). KDFA Stellar Harmonics Framework.
+King, J.A. (2025). TFA Stellar Harmonics Framework.
 GitHub: SchoolBusPhysicist/KING-DFA-Stellar-Harmonics
 ```

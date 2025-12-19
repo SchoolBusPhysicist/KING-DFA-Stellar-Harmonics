@@ -12,7 +12,7 @@ from collections import defaultdict
 REPO_ROOT = Path(__file__).parent.parent
 
 print("=" * 70)
-print("KDFA CROSS-DOCUMENT CONSISTENCY CHECK")
+print("TFA CROSS-DOCUMENT CONSISTENCY CHECK")
 print("=" * 70)
 print()
 

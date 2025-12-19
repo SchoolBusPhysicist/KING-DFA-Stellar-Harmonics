@@ -73,13 +73,13 @@ Agreement: 2.8% error. This independent measurement validates the S-R decomposit
 
 2.3. ~~OPERA Velocity Constraint~~ [RETRACTED]
 
-> **⚠️ RETRACTION NOTICE (2025-12-17):** The v/c formula below was identified as AI confabulation (Grok AI). The "÷2×1.5" factor has no physical derivation. KDFA predicts κ and D₂, not particle velocities. See docs/CONFABULATION_CORRECTIONS.md
+> **⚠️ RETRACTION NOTICE (2025-12-17):** The v/c formula below was identified as AI confabulation (Grok AI). The "÷2×1.5" factor has no physical derivation. TFA predicts κ and D₂, not particle velocities. See docs/CONFABULATION_CORRECTIONS.md
 
 ~~The framework maps D₂ to velocity: D₂ = 1.5 corresponds to v = c.~~ [NO DERIVATION EXISTS]
 
 ~~v/c ≈ 1 - (1.5 - D₂)²/(2 × 1.5)~~ [RETRACTED - arbitrary formula]
 
-**Note:** MINOS and OPERA velocity measurements are independent data; they do not validate or falsify the KDFA framework, which makes no velocity predictions.
+**Note:** MINOS and OPERA velocity measurements are independent data; they do not validate or falsify the TFA framework, which makes no velocity predictions.
 
 2.4. Discovery of the 0.35 Threshold
 
@@ -245,9 +245,9 @@ The dampening field strength is set by 1/N₀ = 1/456. Systems with higher mode 
 
 5.4.2. Born Rule Deviation
 
-The standard Born rule relates probability to amplitude squared: P ∝ |ψ|². The "2" in this exponent is usually taken as fundamental. However, the KDFA damping exponent (2 − D₂) suggests a deeper structure.
+The standard Born rule relates probability to amplitude squared: P ∝ |ψ|². The "2" in this exponent is usually taken as fundamental. However, the TFA damping exponent (2 − D₂) suggests a deeper structure.
 
-In the KDFA framework:
+In the TFA framework:
 - Pure structural limit (S → ∞, D₂ → 0): exponent → 2 (Born rule recovered)
 - Coupled systems (finite D₂): exponent = 2 − D₂ < 2 (sub-quadratic)
 - Pure relational limit (R → ∞, D₂ → 2): exponent → 0 (no damping)
@@ -258,18 +258,18 @@ Experimental signature: In systems where the framework applies (fluid dynamics, 
 
 5.4.3. Connection to Verlinde's Emergent Gravity
 
-Verlinde (2010, 2016) proposed that gravity is not fundamental but emerges from entropic forces on holographic screens. The KDFA framework exhibits structural parallels:
+Verlinde (2010, 2016) proposed that gravity is not fundamental but emerges from entropic forces on holographic screens. The TFA framework exhibits structural parallels:
 
-| Verlinde | KDFA |
+| Verlinde | TFA |
 |----------|------|
 | Entropy S | R-axis (relational dynamics) |
 | Mass/Energy M | S-axis (structural constraints) |
 | Holographic screen | Interface (S-R boundary) |
 | Entropic force F = T∇S | κ gradient dynamics |
 
-Verlinde's key equation ∆S = 2πkB(mc/ℏ)∆x connects entropy change to mass displacement—precisely an S-R coupling statement. The KDFA critical threshold κ* = 1/e ≈ 0.368 may represent the coupling at which entropic (R) and gravitational (S) contributions balance.
+Verlinde's key equation ∆S = 2πkB(mc/ℏ)∆x connects entropy change to mass displacement—precisely an S-R coupling statement. The TFA critical threshold κ* = 1/e ≈ 0.368 may represent the coupling at which entropic (R) and gravitational (S) contributions balance.
 
-Specific correspondence: Verlinde's emergent gravity predicts deviations from Newtonian dynamics at acceleration scales a₀ ≈ cH₀ (the MOND scale). KDFA predicts a₀ = cH₀/(2e) = cH₀ × 0.184, matching the observed MOND acceleration to 0.4% (Milgrom 1983; McGaugh et al. 2016).
+Specific correspondence: Verlinde's emergent gravity predicts deviations from Newtonian dynamics at acceleration scales a₀ ≈ cH₀ (the MOND scale). TFA predicts a₀ = cH₀/(2e) = cH₀ × 0.184, matching the observed MOND acceleration to 0.4% (Milgrom 1983; McGaugh et al. 2016).
 
 The frameworks converge on a single insight: gravity emerges from the S-axis as structure—not as a fundamental force, but as the constraint that balances relational dynamics. This explains why the same constants (κ* = 1/e, N₀ = 456) appear in both cosmological (dark energy fraction Ω_Λ = 13/19) and local (stellar oscillation) contexts.
 

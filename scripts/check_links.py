@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Link Checker for KDFA Repository
+Link Checker for TFA Repository
 
 Checks all markdown files for:
 1. Internal file links (relative paths)
@@ -22,7 +22,7 @@ REPO_ROOT = Path(__file__).parent.parent
 md_files = list(REPO_ROOT.glob("**/*.md"))
 
 print("=" * 70)
-print("KDFA LINK VERIFICATION REPORT")
+print("TFA LINK VERIFICATION REPORT")
 print("=" * 70)
 print()
 

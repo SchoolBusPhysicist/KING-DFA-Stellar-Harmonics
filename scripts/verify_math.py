@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-KDFA Mathematical Verification Script
+TFA Mathematical Verification Script
 
-Uses SymPy to rigorously verify all mathematical claims in the KDFA framework.
+Uses SymPy to rigorously verify all mathematical claims in the TFA framework.
 This script checks:
 1. Core constant derivations
 2. Numerical calculations
 3. Statistical formulas
 4. Cross-domain consistency
 
-Author: Verification script for KDFA paper release
+Author: Verification script for TFA paper release
 """
 
 import sympy as sp
@@ -22,7 +22,7 @@ from decimal import Decimal, getcontext
 getcontext().prec = 50
 
 print("=" * 70)
-print("KDFA MATHEMATICAL VERIFICATION REPORT")
+print("TFA MATHEMATICAL VERIFICATION REPORT")
 print("=" * 70)
 print()
 

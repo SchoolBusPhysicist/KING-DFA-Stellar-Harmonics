@@ -1,4 +1,4 @@
-# KDFA Paper Release Verification Report
+# TFA Paper Release Verification Report
 
 **Date:** 2025-12-19
 **Status:** ✅ VERIFIED (with notes)
@@ -43,7 +43,7 @@ Cross-document consistency verified using `scripts/check_consistency.py`.
 
 **Fixed Issues:**
 1. ✅ GitHub URL in `paper/stellar_paper.md` line 283
-   - Changed `KDFA-Stellar-Harmonics` → `KING-DFA-Stellar-Harmonics`
+   - Changed `TFA-Stellar-Harmonics` → `KING-DFA-Stellar-Harmonics`
 
 ---
 
@@ -58,7 +58,7 @@ Two different D₂ measurement values are used across documents:
 | **1.495 ± 0.144** | Paper, README, GLOSSARY, DATA_SOURCES | IC40 analysis |
 | **1.46 ± 0.07** | RESULTS.md, CONFABULATION_CORRECTIONS | Weighted combined |
 
-Both values are valid measurements from different analyses and both match the KDFA prediction of 1.45 ± 0.10 within uncertainties. However:
+Both values are valid measurements from different analyses and both match the TFA prediction of 1.45 ± 0.10 within uncertainties. However:
 
 - `CONFABULATION_CORRECTIONS.md` documents that the paper abstract should say "D₂ = 1.46 ± 0.07 (total sample)"
 - The paper currently says "D₂ = 1.495 ± 0.144"
@@ -96,8 +96,8 @@ python scripts/check_consistency.py
 
 ## Conclusion
 
-The KDFA framework's mathematical claims are **rigorously verified** and internally consistent. All links are valid. The single GitHub URL inconsistency has been fixed.
+The TFA framework's mathematical claims are **rigorously verified** and internally consistent. All links are valid. The single GitHub URL inconsistency has been fixed.
 
-The D₂ measurement value notation (1.495 vs 1.46) is a documentation detail that should be clarified but does not affect the scientific validity of the results - both measurements confirm the KDFA prediction.
+The D₂ measurement value notation (1.495 vs 1.46) is a documentation detail that should be clarified but does not affect the scientific validity of the results - both measurements confirm the TFA prediction.
 
 **Ready for paper release** pending author review of the documentation note above.

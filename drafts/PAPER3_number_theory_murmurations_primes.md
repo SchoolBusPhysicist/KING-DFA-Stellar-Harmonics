@@ -10,7 +10,7 @@ Independent Researcher, Missouri, USA
 
 ## Abstract
 
-The KDFA coupling threshold κ* = 1/e ≈ 0.368 and harmonic constant N₀ = 456 appear to have pure number-theoretic origins independent of physics. We demonstrate that elliptic curve murmurations—oscillating patterns in Frobenius traces discovered by He et al. (2022)—exhibit first nodes at √(p/N) = 0.3627, matching 1/e to 98.6%. The harmonic constant derives as 456 = 168 × e with 99.85% accuracy, where 168 = |PSL(2,7)| is the order of the second-smallest nonabelian simple group. The Birch and Swinnerton-Dyer (BSD) conjecture, connecting elliptic curve rank to L-function zeros, is fundamentally an S-R coupling statement. These connections suggest that the constants governing stellar oscillations and neutrino correlations encode prime structure—physical harmonics reflect number-theoretic truth.
+The TFA coupling threshold κ* = 1/e ≈ 0.368 and harmonic constant N₀ = 456 appear to have pure number-theoretic origins independent of physics. We demonstrate that elliptic curve murmurations—oscillating patterns in Frobenius traces discovered by He et al. (2022)—exhibit first nodes at √(p/N) = 0.3627, matching 1/e to 98.6%. The harmonic constant derives as 456 = 168 × e with 99.85% accuracy, where 168 = |PSL(2,7)| is the order of the second-smallest nonabelian simple group. The Birch and Swinnerton-Dyer (BSD) conjecture, connecting elliptic curve rank to L-function zeros, is fundamentally an S-R coupling statement. These connections suggest that the constants governing stellar oscillations and neutrino correlations encode prime structure—physical harmonics reflect number-theoretic truth.
 
 ---
 
@@ -25,9 +25,9 @@ The patterns show:
 - Zero crossings (nodes) at specific √(p/N) values
 - Dependence on curve rank (r = 0, 1, 2, ...)
 
-### 1.2 The KDFA Connection
+### 1.2 The TFA Connection
 
-The KDFA framework maps naturally to elliptic curve structure:
+The TFA framework maps naturally to elliptic curve structure:
 - **Conductor N** → S-axis (arithmetic constraint, complexity measure)
 - **Rank r** → R-axis (emergent structure, rational point count)
 - **Frobenius trace a_p** → Coupling signature at prime p
@@ -44,7 +44,7 @@ For elliptic curves with conductor N ∈ [7500, 10000], the first murmuration no
 
 $$\sqrt{p/N} = 0.3627 \pm 0.005$$
 
-KDFA prediction:
+TFA prediction:
 $$\kappa^* = 1/e = 0.3679$$
 
 **Match: 98.6%**
@@ -106,7 +106,7 @@ The product 168e combines:
 - Discrete group structure (168)
 - Continuous exponential (e)
 
-This mirrors the KDFA framework:
+This mirrors the TFA framework:
 - S-axis: Discrete, structural (168)
 - R-axis: Continuous, relational (e)
 - N₀ = S × R unification
@@ -123,9 +123,9 @@ The Birch and Swinnerton-Dyer conjecture (Millennium Prize Problem) states:
 
 Formally: rank(E) = ord_{s=1} L(E,s)
 
-### 4.2 KDFA Interpretation
+### 4.2 TFA Interpretation
 
-In KDFA terms:
+In TFA terms:
 - **Rank r** = R-axis (rational point structure, emergence)
 - **L-function zeros** = S-axis (analytic constraint, regulator)
 
@@ -161,7 +161,7 @@ Evidence:
 
 The Riemann Hypothesis concerns zeros of ζ(s) on the critical line Re(s) = 1/2.
 
-KDFA interpretation:
+TFA interpretation:
 - Critical line Re(s) = 1/2 corresponds to κ = 0.5 (balance point)
 - Non-trivial zeros encode coupling dynamics
 - The functional equation ζ(s) = ζ(1-s) is S-R symmetry
@@ -170,7 +170,7 @@ KDFA interpretation:
 
 Montgomery (1973) showed that Riemann zeros exhibit pair correlation matching random matrix theory (GUE statistics).
 
-KDFA prediction: The pair correlation function should show structure at 1/e and 1/φ separations, corresponding to life zone boundaries.
+TFA prediction: The pair correlation function should show structure at 1/e and 1/φ separations, corresponding to life zone boundaries.
 
 ---
 
