@@ -229,6 +229,50 @@ Entangled states: κ = (R_A + R_B + R_AB) / [(R_A + R_B + R_AB) + (S_A + S_B)]
 
 where R_AB is shared relational intensity that cannot be factored. Bell violations emerge from this constraint—the same structure complex amplitudes encode, in real numbers alone.
 
+5.4. Connections to Fundamental Physics
+
+5.4.1. The Dampening Field
+
+The amplitude damping equation A(n) = A₀ × exp[−(n/N₀)^(2−D₂)] describes more than mathematical decay—it represents a physical dampening field governing energy dissipation in coupled oscillating systems.
+
+The key insight: the exponent (2 − D₂) = 0.538 emerges from the geometric structure of the system itself, not from external dissipative mechanisms. This "structural damping" arises because:
+
+1. Energy cannot propagate freely in fractal-coupled systems
+2. The correlation dimension D₂ = 19/13 sets the rate at which modes interfere destructively
+3. The damping is universal across scales—from neutrino correlations to stellar oscillations to black hole ringdown
+
+The dampening field strength is set by 1/N₀ = 1/456. Systems with higher mode numbers n experience exponentially suppressed amplitudes, but the suppression is gentler than exponential (exponent 0.538 < 1) because the fractal structure allows partial coherence to persist.
+
+5.4.2. Born Rule Deviation
+
+The standard Born rule relates probability to amplitude squared: P ∝ |ψ|². The "2" in this exponent is usually taken as fundamental. However, the KDFA damping exponent (2 − D₂) suggests a deeper structure.
+
+In the KDFA framework:
+- Pure structural limit (S → ∞, D₂ → 0): exponent → 2 (Born rule recovered)
+- Coupled systems (finite D₂): exponent = 2 − D₂ < 2 (sub-quadratic)
+- Pure relational limit (R → ∞, D₂ → 2): exponent → 0 (no damping)
+
+This suggests the Born rule's quadratic form is not fundamental but emerges in the S-dominated regime. For systems with significant R-S coupling (D₂ ≈ 1.46), the effective exponent is 0.538—a measurable deviation from quadratic damping.
+
+Experimental signature: In systems where the framework applies (fluid dynamics, sustained non-equilibrium), amplitude ratios should follow the 0.538 power law rather than quadratic decay. The KOI-54 heartbeat star validates this: observed amplitude decay matches exp[−(n/456)^0.538] within 2%.
+
+5.4.3. Connection to Verlinde's Emergent Gravity
+
+Verlinde (2010, 2016) proposed that gravity is not fundamental but emerges from entropic forces on holographic screens. The KDFA framework exhibits structural parallels:
+
+| Verlinde | KDFA |
+|----------|------|
+| Entropy S | R-axis (relational dynamics) |
+| Mass/Energy M | S-axis (structural constraints) |
+| Holographic screen | Interface (S-R boundary) |
+| Entropic force F = T∇S | κ gradient dynamics |
+
+Verlinde's key equation ∆S = 2πkB(mc/ℏ)∆x connects entropy change to mass displacement—precisely an S-R coupling statement. The KDFA critical threshold κ* = 1/e ≈ 0.368 may represent the coupling at which entropic (R) and gravitational (S) contributions balance.
+
+Specific correspondence: Verlinde's emergent gravity predicts deviations from Newtonian dynamics at acceleration scales a₀ ≈ cH₀ (the MOND scale). KDFA predicts a₀ = cH₀/(2e) = cH₀ × 0.184, matching the observed MOND acceleration to 0.4% (Milgrom 1983; McGaugh et al. 2016).
+
+The frameworks converge on a single insight: gravity emerges from the S-axis as structure—not as a fundamental force, but as the constraint that balances relational dynamics. This explains why the same constants (κ* = 1/e, N₀ = 456) appear in both cosmological (dark energy fraction Ω_Λ = 13/19) and local (stellar oscillation) contexts.
+
 6. Discussion
 
 6.1. Summary of Validations
@@ -280,7 +324,7 @@ The pattern requires: (1) fluid dynamics with continuous flow, (2) active energy
 
 Data Availability
 
-All analysis scripts and data are available at: https://github.com/SchoolBusPhysicist/KDFA-Stellar-Harmonics
+All analysis scripts and data are available at: https://github.com/SchoolBusPhysicist/KING-DFA-Stellar-Harmonics
 
 Primary data sources:
 - IceCube HESE 7.5-year: https://icecube.wisc.edu/data-releases/
@@ -296,10 +340,14 @@ Hita, A., et al. 2025, arXiv:2503.17307
 Hoffreumon, C., Woods, M. 2025, arXiv:2504.02808
 Kirk, B., et al. 2016, AJ, 151, 68
 Mankovich, C., et al. 2019, ApJ, 871, 1
+McGaugh, S.S., Lelli, F., Schombert, J.M. 2016, Phys. Rev. Lett., 117, 201101
 McIntosh, S.W., et al. 2017, Nature Astronomy, 1, 0086
+Milgrom, M. 1983, ApJ, 270, 365
 Reed, M.D. 2010, Ap&SS, 329, 83
 Renou, M.O., et al. 2021, Nature, 600, 625
 She, Z.S., Leveque, E. 1994, Phys. Rev. Lett., 72, 336
 Sturrock, P.A. 2008, ApJ, 688, L53
 Thompson, S.E., et al. 2012, ApJ, 753, 86
+Verlinde, E.P. 2010, JHEP, 04, 029
+Verlinde, E.P. 2016, SciPost Physics, 2, 016
 Welsh, W.F., et al. 2011, ApJS, 197, 4
